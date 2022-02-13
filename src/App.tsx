@@ -2,7 +2,7 @@ import { Todos } from "./Components/Todos"
 
 function App(){
   return (
-    <div>
+    <div className="h-screen flex justify-center items-center bg-slate-600">
       <Todos />
     </div>
   )
